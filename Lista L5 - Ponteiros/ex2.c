@@ -15,7 +15,7 @@ int main(){
 
     int pulo [5] = {1, 2, 3, 4, 5};
 
-    printf("%d", *(pulo + 2));
+    printf("%d", *pulo + 2);
 
 }
 
@@ -33,6 +33,3 @@ d) pulo + 2
 
 A mesma coisa só que seria 1008.
 */
-
-
-
