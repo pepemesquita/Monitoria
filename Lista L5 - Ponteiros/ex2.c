@@ -2,9 +2,7 @@
 
 /*
 Exercício 2. Assumindo que pulo[ ] é um vetor tipo int, 
-quais das seguintes
-expressões referenciam o valor
-do terceiro elemento do vetor?
+quais das seguintes expressões referenciam o valor do terceiro elemento do vetor?
 
 a) *(pulo + 2)
 [valor1, valor2, valor3, valor5, valor5]

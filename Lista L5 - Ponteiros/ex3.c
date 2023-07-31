@@ -14,13 +14,12 @@ int main(){
     int *p, x;
 
     p = mat + 1;
-    printf("%d %d\n", mat, p);
-
+    printf("Endereços: %d %d\n", mat, p);//Imprime o endereço de mat e a incrementação em bytes de um inteiro atribuida a "p"
     //p = mat++;
     //printf("%p %p", &mat, p);
 
     //p = ++mat;
 
     x = (*mat)++;
-    printf("%d", x);    
+    printf("Conteudo do vetor: %d", x);    
 }

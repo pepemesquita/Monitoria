@@ -8,14 +8,13 @@ int main(){
     int i;
     f = vet;
     
-    printf("contador/valor/valor/endereco/endereco");
-    
     for(i = 0; i < 5; i++){
- 
-    printf("\ni = %d\n", i); //Mostra na tela o contador
-    printf(" vet[%d] = %.1f\n", i, vet[i]);//Irá mostrar a sequencia
-    printf(" *(f + %d) = %.1f\n", i, *(f+i));//A mesma coisa que em cima
-    printf(" &vet[%d] = %p\n", i, &vet[i]);//Mostrará o endereço do vetor
-    printf(" (f + %d) = %p\n", i, f+i); //A mesma coisa que em cima
+    printf("contador/valor/valor/endereco/endereco\n");
+    printf(" i = %d |", i); //Mostra na tela o contador
+    printf(" vet[%d] = %.1f |", i, vet[i]);//Irá mostrar o conteúdo do vetor
+    printf(" *(f + %d) = %.1f |", i, *(f+i));//A mesma coisa que em cima
+    printf(" &vet[%d] = %p |", i, &vet[i]);//Mostrará o endereço do vetor
+    printf(" (f + %d) = %p |", i, f+i); //A mesma coisa que em cima
+    printf("\n\n");
     }
 }
